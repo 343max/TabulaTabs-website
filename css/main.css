@@ -1,12 +1,13 @@
 body {
 	background-color: white;
-	background: -webkit-linear-gradient(rgba(61,81,107,0.5) 0%, rgba(61,81,107,0.4) 500px, rgba(61,81,107,0.1) 500px, rgba(61,81,107,0.0) 800px);
-	background-repeat: no-repeat;
+	background: -webkit-linear-gradient(rgba(61,81,107,0.0) 0, rgba(61,81,107,0.3) 100px, rgba(61,81,107,0.6) 500px, rgba(61,81,107,0.2) 500px, rgba(61,81,107,0.0) 800px), url(../img/noise.png);
 	min-height: 100%;
 }
 
 .container {
   padding-top: 60px;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.3);
 }
 
 .container .row {
@@ -14,11 +15,12 @@ body {
 }
 
 .head {
-    color: white;
+  color: #263346;
 }
 
 .title {
   margin-top: 100px;
+  margin-left: 105px;
   margin-bottom: 48px;
 }
 
@@ -33,7 +35,8 @@ body {
 	width: 300px;
 	height: 44px;
 	-webkit-mask-image: url(../img/typogramm.png);
-	background-color: white;
+	background: white;
+	background-image: -webkit-linear-gradient(#868c99 0, #3b4a62 50%, #2a3a51 50%, #263346 100%);
 }
 
 ul.download li {
@@ -54,11 +57,12 @@ ul.download .btn:hover {
 
 li.compatibility span {
   font-size: 0.9em;
-  width: 320px;
+  width: 290px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5px;
+  color: white;
 }
 
 .appstore {
