@@ -19,7 +19,7 @@ h2 {
   margin-left: 0;
 }
 
-.head {
+.head, li.compatibility.important span {
   color: #263346;
 }
 
