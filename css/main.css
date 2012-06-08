@@ -65,8 +65,6 @@ ul.download .btn.disabled:hover {
   box-shadow: none;
 }
 
-
-
 li.compatibility span {
   font-size: 0.9em;
   width: 290px;
@@ -86,5 +84,9 @@ img.screenshot {
 }
 
 div.head {
-  height: 440px;
+  height: 360px;
+}
+
+div.points {
+  margin: 0 40px;
 }
