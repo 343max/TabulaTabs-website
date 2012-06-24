@@ -40,12 +40,7 @@ h2 {
 	text-indent: -100000px;
 	width: 300px;
 	height: 44px;
-	-webkit-mask-image: url(../img/typogramm.png);
-	-moz-mask-image: url(../img/typogramm.png);
-	mask-image: url(../img/typogramm.png);
-	background: white;
-	background-image: -moz-linear-gradient(#868c99 0, #3b4a62 50%, #2a3a51 50%, #263346 100%);
-	background-image: -webkit-linear-gradient(#868c99 0, #3b4a62 50%, #2a3a51 50%, #263346 100%);
+	background-image: url(../img/typogramm-gradient.png);
 }
 
 ul.download li {
