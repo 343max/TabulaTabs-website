@@ -105,6 +105,11 @@ div.socialmedia a {
   background-position: 0 0;
 }
 
+.icon-uservoice {
+  background-image: url(../img/Uservoice.png);
+  background-position: 0 0;
+}
+
 div#contact {
   margin: 60px 40px 60px 40px;
   font-size: 0.8em;
