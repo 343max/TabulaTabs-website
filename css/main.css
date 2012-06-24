@@ -91,3 +91,26 @@ div.head {
 div.points {
   margin: 0 40px;
 }
+
+div.socialmedia {
+  margin: 0 40px 10px 40px;
+}
+
+div.socialmedia a {
+  font-weight: bold;
+}
+
+.icon-twitter {
+  background-image: url(../img/Twitter.png);
+  background-position: -2px 0;
+}
+
+.icon-facebook {
+  background-image: url(../img/Facebook.png);
+  background-position: 0 0;
+}
+
+div#contact {
+  margin: 60px 40px 60px 40px;
+  font-size: 0.8em;
+}
